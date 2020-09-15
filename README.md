@@ -24,3 +24,4 @@
 
 已经验证Pytorch可以训练动态网络。
 
+实际上，领域内当前似乎没有对树形结构处理地特别好的方式，递归神经网络（Recursive Neural Network，不是循环神经网络）算是不成熟的一种，TreeLSTM可能是目前最好的（图神经网络领域我还不太了解）。TreeLSTM的原始论文为[Improved Semantic Representations From Tree-Structured Long Short-Term Memory Networks](https://arxiv.org/abs/1503.00075)，项目地址为https://github.com/stanfordnlp/treelstm
